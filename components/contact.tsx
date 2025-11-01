@@ -18,12 +18,12 @@ export const Contact = () => {
   return (
     <>
       <div>
-        <h1 className="font-serif text-6xl text-center">
+        <h1 className="font-serif sm:text-6xl text-4xl text-center">
           <span>Contact</span>
           <br />
           <span>(3)</span>
         </h1>
-        <h1 className="font-serif text-center text-4xl mt-12 flex gap-4 items-center justify-center text-primary/60">
+        <h1 className="font-serif text-center sm:text-4xl text-2xl mt-12 flex gap-4 items-center justify-center text-primary/60">
           {contacts.map((contact) => (
             <Fragment key={contact.name}>
               <a

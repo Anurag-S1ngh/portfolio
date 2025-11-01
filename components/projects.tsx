@@ -32,11 +32,11 @@ export const Projects = () => {
   return (
     <>
       <div>
-        <div className="font-serif text-6xl text-center">
+        <div className="font-serif sm:text-6xl text-4xl text-center">
           <h1>Projects</h1>
           <h1 className="mt-1">({projects.length})</h1>
         </div>
-        <div className="mx-auto w-xl mt-16 flex flex-col gap-8">
+        <div className="mx-auto sm:w-xl w-xs mt-16 flex flex-col gap-8">
           {projects.map((project, index) => (
             <ProjectCard
               key={index}
