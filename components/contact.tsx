@@ -33,7 +33,7 @@ export const Contact = () => {
               >
                 {contact.name}
               </a>
-              <span className="text-primary/60">
+              <span className="text-primary/55">
                 {contacts.indexOf(contact) === contacts.length - 1 ? "" : "|"}
               </span>
             </Fragment>

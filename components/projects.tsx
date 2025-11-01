@@ -7,26 +7,26 @@ export const Projects = () => {
       year: "2025",
       demo: "https://traccker.anuragcode.me/",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do consectetur adipiscing elit",
+        "Real-time event attendance tracker with a Go backend and React frontend, featuring live updates via WebSockets",
     },
     {
       name: "BetterLog",
       year: "2025",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do consectetur adipiscing elit",
+        "Website uptime monitoring tool that tracks uptime and sends email alerts on downtime",
     },
     {
       name: "BrainTwin",
       year: "2025",
       demo: "https://braintwin.anuragcode.me/",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do consectetur adipiscing elit",
+        "Personal AI-powered knowledge base that organizes notes with media embeds and generates summaries using Gemini API",
     },
     {
       name: "Proofly",
       year: "2025",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do consectetur adipiscing elit",
+        "Testimonial management platform for collecting, displaying, and embedding video or text reviews on websites",
     },
   ];
   return (
